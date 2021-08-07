@@ -1,0 +1,93 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:rgb(216, 216, 216);
+    height:100vh;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.flexcard-container{
+    display:flex;
+    width:55%;
+    height:400px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+    
+    
+}
+.flexcard-container div{
+    flex:33.33%;
+    padding:30px;
+    font-family:sans-serif;
+}
+.flex1{
+    background-color:hsl(31,77%,52%);
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+.flex1 a{
+    background-color:hsl(31,77%,52%);
+    
+}
+.flex2{
+    background-color:hsl(184,100%,22%);
+}
+
+.flex2 a{
+    background-color:hsl(184,100%,22%);
+    text-decoration:none;
+}
+.flex3{
+    background-color:hsl(179,100%,13%);
+    border-bottom-right-radius:10px;
+    border-top-right-radius:10px;
+}
+.flex3 a{
+    background-color:hsl(179,100%,13%)
+    text-decoration:none;
+}
+.flexdiv h2{
+    color:white;
+    line-height:40px;
+    padding-bottom:35px;
+    font-size:30px;
+}
+.flexdiv img{
+    padding-bottom:35px;
+}
+.flexdiv p{
+    color:white;
+    font-size:12px;
+    padding-bottom:60px;
+    line-height:20px;
+}
+.flexdiv a{
+    border-radius:20px;
+    padding:10px 20px;
+    outline:none;
+    border-color:white;
+    color:white;
+    border:2px solid white;
+}
+@media screen and (max-width:600px){
+    .flexcard-container{
+        display:flex;
+        flex-direction:column;
+    }
+    .flex1{
+        border-top-right-radius:10px;
+        border-bottom-left-radius:0px;
+    }
+    .flex3{
+        border-top-right-radius:0px;
+        border-bottom-left-radius:10px;
+    }
+}
+@media screen and (max-width:800px) and (min-width:400px){
+  
+}

@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    padding:0;
+    background:url(images/pattern-background-desktop.svg);
+    background-position:top 10% ;
+    background-repeat:no-repeat;
+    background-color:hsl(223,100%,94%);
+    box-sizing:border-box;
+    background-size:cover
+}
+*{
+    margin:0;
+    padding:0;
+}
+.sumarycard{
+    width:350px;
+    height:500px;
+    background-color:white;
+    border-radius:10px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.model{
+    width:350px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+.sumarycard h2{
+    text-align:center;
+    padding-top:25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sumarycard .text{
+    text-align:center;
+    font-size:14px;
+    padding: 25px;
+    font-family:sans-serif;
+}
+.sumarycard ol{
+    list-style-type:none;
+    display:flex;
+    justify-content:center;
+    background-color:hsl(225,100%,94%);
+    margin-left:30px;
+    margin-right:30px;
+    border-radius:10px;
+    padding-top:10px;
+    margin-bottom:25px;
+}
+.sumarycard ol li:nth-child(1){
+    padding-right:20px;
+}
+.sumarycard ol li:nth-child(2){
+    font-weight:bold;
+    padding-left:-30px;
+
+}
+.sumarycard ol li:nth-child(2) span{
+    color:grey;
+    line-height:25px;
+}
+.sumarycard ol li:nth-child(3) a{
+    text-decoration:underline;
+    line-height:50px;
+    padding-left:60px;
+}
+.sumarycard a{
+    text-align:center;
+    text-decoration:none;
+}
+.proceed{
+    color:white;
+    background-color:rgb(30, 30, 226);
+    border-radius:10px;
+    text-align:center;
+    padding:10px 30px;
+    margin-left:30px;
+    margin-top:10px;
+    margin-right:30px;
+    box-shadow:5px 5px  5px rgb(193, 193, 201);
+}
+.proceed a{
+    color:white;
+}
+.cancel {
+    text-align:center;
+    margin-top:20px;
+    color:black;
+    font-weight:bold;
+}
+.cancel a{
+    color:rgb(61, 61, 61);
+}
