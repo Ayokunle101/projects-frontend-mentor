@@ -13,8 +13,8 @@ body{
     padding:0;
 }
 .sumarycard{
-    width:350px;
-    height:500px;
+    width:375px;
+    height:520px;
     background-color:white;
     border-radius:10px;
     position:absolute;
@@ -23,26 +23,27 @@ body{
     transform:translate(-50%,-50%);
 }
 .model{
-    width:350px;
+    width:375px;
     border-top-left-radius:10px;
     border-top-right-radius:10px;
 }
 .sumarycard h2{
     text-align:center;
-    padding-top:25px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top:20px;
+    font-family:'Red Hat Display', sans-serif;
+    font-weight:900;
 }
 .sumarycard .text{
     text-align:center;
-    font-size:14px;
-    padding: 25px;
-    font-family:sans-serif;
+    font-size:16px;
+    padding: 20px;
+    font-family:'Red Hat Display', sans-serif;
 }
 .sumarycard ol{
     list-style-type:none;
     display:flex;
     justify-content:center;
-    background-color:hsl(225,100%,94%);
+    background-color:hsl(225, 100%, 98%);
     margin-left:30px;
     margin-right:30px;
     border-radius:10px;
@@ -51,10 +52,12 @@ body{
 }
 .sumarycard ol li:nth-child(1){
     padding-right:20px;
+    padding-left:18px;
 }
 .sumarycard ol li:nth-child(2){
     font-weight:bold;
     padding-left:-30px;
+    font-family: 'Red Hat Display', sans-serif;
 
 }
 .sumarycard ol li:nth-child(2) span{
@@ -64,7 +67,9 @@ body{
 .sumarycard ol li:nth-child(3) a{
     text-decoration:underline;
     line-height:50px;
-    padding-left:60px;
+    padding-left:40px;
+    padding-right:10px;
+    color:blue;
 }
 .sumarycard a{
     text-align:center;
@@ -72,23 +77,27 @@ body{
 }
 .proceed{
     color:white;
-    background-color:rgb(30, 30, 226);
+    background-color: hsl(245, 75%, 52%);
     border-radius:10px;
     text-align:center;
     padding:10px 30px;
     margin-left:30px;
-    margin-top:10px;
+    margin-top:15px;
     margin-right:30px;
-    box-shadow:5px 5px  5px rgb(193, 193, 201);
+    box-shadow:5px 5px  5px rgb(44, 44, 175);
+    font-family:'Red Hat Display', sans-serif;
 }
 .proceed a{
     color:white;
+    font-size:13px;
 }
 .cancel {
     text-align:center;
-    margin-top:20px;
+    margin-top:18px;
     color:black;
     font-weight:bold;
+    font-family:'Red Hat Display', sans-serif;
+    font-size:12px;
 }
 .cancel a{
     color:rgb(61, 61, 61);
