@@ -212,14 +212,14 @@ body{
     width:60px;
     height:60px;
     padding-top:20px;
-    margin-left:40px;
+   
     
 }
 .footer ol{
     display:flex;
     list-style-type:none;
     align-items:center;
-    margin-left:190px;
+   
 }
 .footer ol li{
     margin-left:30px;
@@ -228,10 +228,126 @@ body{
     display:flex;
     list-style-type:none;
     align-items:center;
-    margin-left:38%;
+  
 }
 .footer ul li{
-    margin-left:30px;
+   
+}
+@media screen and (max-width:600px){
+    .section2{
+        flex-direction:column;
+    }
+    .section3{
+        flex-direction:column;
+    }
+    .section4{
+        flex-direction:column;
+    }
+    .section5{
+        flex-direction:column;
+    }
+    .header .firstbtn{
+        padding-left:100px;
+        padding-right:100px;
+        padding-top:15px;
+        padding-bottom:15px;
+        font-weight:bolder;
+        font-size:15px;
+        box-shadow:4px 4px 5px rgb(17, 28, 28);
+    }
+    .header .secondbtn{
+        margin-top:30px;
+        padding-top:15px;
+        padding-bottom:15px;
+        font-weight:bold;
+        font-size:15px;
+        padding-left:90px;
+        padding-right:90px;
+        box-shadow:4px 4px 5px rgb(11, 11, 19);
+    }
+    .section2{
+        display:block;
+        flex-direction:column;
+    }
+    .section2 div{
+        flex:100%;
+        margin-top:200px;
+    }
+ 
+   .section3{
+       margin-top:400px;
+    
+   }
+   .section2 .Actions{
+      text-align:center;
+      margin-top:0px;
+   }
+   .section2 .Actions ol{
+       padding-top:30px;
+   }
+  
+   .section2 div:nth-child(1) img{
+    width:400px;
+    height:400px;
+    margin-left:50px;
+    margin-top:80px;    
+  }
+  .section3 p{
+      font-size:20px;
+  }
+  .section3 img{
+      width:450px;
+  }
+  .section4 .creation{
+      flex-direction:column;
+  }
+  .section4 .brands{
+      flex-direction:column;
+      margin-top:300px;
+  }
+  .section5{
+      margin-top:800px;
+  }
+  .section3 img{
+    padding-top:110px;
+  } 
+  .footer{
+      display:flex;
+      flex-direction:column;
+      height:300px;
+      align-items:center;
+  }
+  .footer ol{
+      flex-direction:column;
+  }
+  .footer ol li{
+      padding-bottom:20px;
+      text-align:center;
+  }
+  .footer ul li{
+      margin-left:30px;
+  }
+  .section5{
+      height:600px;
+  }
+  .section5 div p{
+      font-size:18px;
+  }
+  .section5 div button{
+      
+  }
+  .section5 div h2{
+      margin-top:80px;
+      margin-bottom:30px;
+  }
+  .footer .icon{
+      width:50px;
+      height:50px;
+  }
+  .footer ol li span{
+    line-height:30px;
+  }
+  
 }
 
 
