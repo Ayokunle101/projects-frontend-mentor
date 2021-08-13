@@ -18,7 +18,7 @@ body{
 }
 .grid-container{
     display:grid;
-    width:80%;
+    width:75%;
     margin:auto;
     margin-top:3rem;
     grid-template-columns:repeat(4,1fr);
@@ -31,6 +31,7 @@ body{
    font-family:'Barlow Semi Condensed', sans-serif;
    border-radius:8px;
    padding:25px;
+   font-size:.8em;
 }
 .grid-items1{
    grid-area:myarea;
@@ -69,7 +70,7 @@ body{
     padding:20px 0px 20px 0px;
 }
 .grid-items3 p{
-    color:white;
+    color:black;
     opacity:0.7;
 }
 .grid-items4{
@@ -83,7 +84,7 @@ body{
 }
 .grid-items4 p{
     opacity:0.7;
-    color:white;
+    color:black;
 }
 .grid-items5{
     grid-area:myarea5;
