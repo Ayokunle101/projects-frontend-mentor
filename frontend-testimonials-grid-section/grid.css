@@ -51,7 +51,7 @@ body{
 }
 .grid-items2{
     grid-area:myarea2;
-    background-color:var(--color2)
+    background-color:var(--color2);
 }
 .grid-items2 h3{
     color:white;
@@ -68,6 +68,10 @@ body{
 .grid-items3 h3{
     padding:20px 0px 20px 0px;
 }
+.grid-items3 p{
+    color:white;
+    opacity:0.7;
+}
 .grid-items4{
     grid-area:myarea4;
     background-color:var(--color4);
@@ -78,7 +82,8 @@ body{
     
 }
 .grid-items4 p{
-    
+    opacity:0.7;
+    color:white;
 }
 .grid-items5{
     grid-area:myarea5;
