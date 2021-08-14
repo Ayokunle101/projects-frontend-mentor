@@ -41,6 +41,7 @@ nav ol li{
     width:100%;
     height:120vh;
     padding-top:40px;
+    font-family: 'Raleway', sans-serif;
 }
 .header div{
     margin:auto;
@@ -48,7 +49,6 @@ nav ol li{
     display:flex;
     flex-direction:column;
     height:auto;
-    padding-top:25px;
     box-sizing:border-box;
 }
 .header-text{  
@@ -86,6 +86,7 @@ nav ol li{
     grid-template-rows:repeat(4,250px);
     grid-gap:15px;
     justify-content:center;
+    font-family: 'Open Sans', sans-serif;
 }
 .actions-container div{
      background-color:var(--color2-mainbackground);
@@ -110,6 +111,7 @@ nav ol li{
     height:150vh;
     background-color:var(--color2-mainbackground);
     display:flex;
+    font-family: 'Open Sans', sans-serif;
 }
 .productive-illustration .illustrative-div{
     width:90%;
@@ -152,6 +154,7 @@ nav ol li{
 .testimonials{
     width:100%;
     height:160vh;
+    font-family: 'Open Sans', sans-serif;
     background-color: var(--color2-mainbackground);
 }
 .testimonials .wrapper{
@@ -201,6 +204,7 @@ nav ol li{
 }
 .free_access {
     width:80%;
+    font-family: 'Open Sans', sans-serif;
     height:350px;
     position:absolute;
     background-color:var(--color3testimonialsbackground);
@@ -243,7 +247,8 @@ nav ol li{
     background-color:var(--color4footerbackground);
     padding-top:240px;
     display:flex;
-    flex-direction:column;   
+    flex-direction:column;  
+    font-family: 'Open Sans', sans-serif; 
 }
 .footer div{
    width:80%;
