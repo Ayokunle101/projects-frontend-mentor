@@ -39,9 +39,10 @@ nav ol li{
 .header{
     background-color:var(--color2-mainbackground);
     width:100%;
-    height:120vh;
+    height:140vh;
     padding-top:40px;
     font-family: 'Raleway', sans-serif;
+    box-sizing:border-box;
 }
 .header div{
     margin:auto;
@@ -50,6 +51,8 @@ nav ol li{
     flex-direction:column;
     height:auto;
     box-sizing:border-box;
+    margin-bottom:30px;
+    margin-top:30px;
 }
 .header-text{  
     padding-top:25px;
@@ -92,7 +95,7 @@ nav ol li{
      background-color:var(--color2-mainbackground);
      text-align:center;
      color:white;
-     box-sizing:border-box;
+     box-sizing:border-box;  
 }
 .grid1 img,.grid2 img,.grid3 img,.grid4 img{
     margin-bottom:30px;
@@ -102,7 +105,7 @@ nav ol li{
    padding-bottom:10px;
 }
 .grid1 p,.grid2 p,.grid3 p,.grid4 p{
-    font-size:16px;
+    font-size:13px;
     padding-left:20px;
     padding-right:20px;
 }
@@ -135,7 +138,7 @@ nav ol li{
 .illustrative-div div:nth-child(2) p{
     color:white;
     padding-top:30px;
-    font-size:18px;
+    font-size:15px;
 }
 .illustrative-div div:nth-child(2) a{
     width:40px;
@@ -174,6 +177,7 @@ nav ol li{
 .testimonial1 .quotes{
     width:30px;
     margin-top:-200px;
+    font-size:10px;
 }
 .testimonial1,.testimonial2,.testimonial3{
     border-radius:5px;
@@ -188,6 +192,7 @@ nav ol li{
 .testimonial1 p,.testimonial2 p,.testimonial3 p{
     color:white;
     line-height:1.3em;
+    font-size:15px;
 }
 .profile1,.profile2,.profile3{
     display:flex;
@@ -248,17 +253,19 @@ nav ol li{
     padding-top:240px;
     display:flex;
     flex-direction:column;  
-    font-family: 'Open Sans', sans-serif; 
+    font-family:'Open Sans', sans-serif; 
+}
+.footer {
+
 }
 .footer div{
-   width:80%;
-   margin:auto;
-   
+    width:80%;
+    margin:auto;
 }
 .footer div:nth-child(1){
     text-align:left;
     color:white;
-    height:130px;  
+    height:130px; 
 }
 .footer div:nth-child(1) p img{
     margin-right:20px;
@@ -266,6 +273,7 @@ nav ol li{
 .footer div:nth-child(2){
     color:white;
     text-align:left;
+    font-size:13px;
 }
 .footer div:nth-child(2) p{
     padding-bottom:20px;
@@ -282,8 +290,8 @@ nav ol li{
     padding-bottom:20px;
 }
 .footer div:nth-child(4) ul{
-   list-style-type:none;
-   color:white;
+    list-style-type:none;
+    color:white;
 }
 .footer div:nth-child(5) p{
     text-align:center;
@@ -293,9 +301,14 @@ nav ol li{
     height:15px;
     margin-left:20px;
     border-radius:50%;
-    border:1px solid white;
     box-sizing:border-box;
-    padding:4px 4px 4px 4px;
+    padding:2px 4px 2px 4px;
+    border:1px solid white;
+}
+@media only screen and (min-width:601){
+    
+    
+
 }
 
 
