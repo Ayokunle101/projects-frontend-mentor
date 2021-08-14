@@ -93,14 +93,14 @@ nav ol li{
     grid-gap:15px;
     justify-content:center;
     font-family: 'Open Sans', sans-serif;
-    border:2px solid white;
+
 }
 .actions-container div{
      background-color:var(--color2-mainbackground);
      text-align:center;
      color:white;
      box-sizing:border-box;  
-     border:1px solid red;
+   
 }
 .grid1 img,.grid2 img,.grid3 img,.grid4 img{
     margin-bottom:30px;
