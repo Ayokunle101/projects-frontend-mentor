@@ -441,6 +441,16 @@ nav ol li{
     footer{
         text-align:center;
     }
+    .footer div:nth-child(1) p{
+        font-size:14px;   
+    }
+    .actions-container{
+        height:80vh;
+    }
+    .testimonials{
+        border:2px  solid white;
+        height:100vh;
+    }
 }
 
 
