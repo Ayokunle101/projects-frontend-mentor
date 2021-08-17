@@ -100,9 +100,11 @@ header div a{
     grid-template-columns:100%;
     grid-auto-rows:minmax(250px,auto);
     text-align:center;
+    font-family:'Open Sans', sans-serif;
 }
-.container div{
-    
+.grid-item2 h2{
+   padding-top:80px;
+   font-weight:700;
 }
 .grid-item1 img{
  width:100%;
@@ -110,7 +112,109 @@ header div a{
 .grid-item3 img{
 width:100%;
 }
+.grid-item4 h2{
+    padding-top:80px;
+}
 .grid-item5 img{
     width:100%;
+}
+.grid-items6 h2{
+    padding-top:80px;
+}
+.communitybuild{
+    width:100%;
+    height:60vh;
+    text-align:center;
+    font-family:'Open Sans', sans-serif;
+}
+.communitybuild h2{
+    margin-top:130px;
+}
+.communitybuild button{
+    color:white;
+    text-decoration:none;
+    background-color:var(--colorpink);
+    border-radius:30px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:10px;
+    padding-bottom:10px;
+    outline:none;
+    border:none;
+    font-size:14px;
+}
+.footer{
+    height:100vh;
+    background-color:var(--colordarkcyan);
+    font-family:'Open Sans', sans-serif;
+    box-sizing:border-box;
+    padding-left:30px;
+    padding-right:30px;
+    border:2px solid white;
+    display:grid;
+    grid-template-columns:100%;
+    grid-auto-rows:minmax(200px,auto);
+    grid-template-rows:repeat(2,auto);
+}
+.footer1{
+}
+.footer1 h2{
+    color:white;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.footer1 p{
+    color:white;
+    padding-bottom:30px;
+    line-height:25px;
+}
+.footer1 input{
+    width:100%;
+    height:50px;
+    border-radius:10px;
+}
+.footer1 button{
+    float:right;
+    clear:both;
+    background-color:var(--colorpink);
+    color:white;
+    width:40%;
+    height:50px;
+    border-radius:10px;
+    margin-top:20px;
+    font-size:16px;
+}
+.footer2 {
+ box-sizing:border-box;
+}
+.footer2 p{
+    color:white;
+    padding-top:30px;
+}
+.footer2 ol{
+    list-style-type:none;
+    color:white;
+    padding-top:30px;
+
+}
+.footer2 ol li{
+    padding-bottom:20px;
+}
+.footer2 ul{
+    list-style-type:none;
+    display:flex;
+    padding-top:20px;
+    color:white;
+}
+.footer2 ul li:nth-child(1){
+    margin-left:0px;
+}
+.footer2 ul li{
+    margin-left:30px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@media only screen and (min-width:600px){
+
 }
  
