@@ -267,9 +267,6 @@ header div a{
 .footer2 ul li{
     margin-left:30px;
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
 /*Desktop------------------------version*/
 @media screen and (min-width:900px){
  header div h1{
@@ -350,7 +347,7 @@ header div a{
     grid-area:sixtext;
 }
 .communitybuild h2{
-    padding-top:270px;
+    padding-top:150px;
     margin-bottom:20px;
     font-size:40px;
 }
@@ -383,7 +380,7 @@ header div a{
     grid-template-rows:repeat(2,auto);
     grid-template-areas:'contact-us newsletter';
     padding-top:100px;
-    border:none;
+    border:3px solid red;
 }
 .footer1{
     grid-area:newsletter;
