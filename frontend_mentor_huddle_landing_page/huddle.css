@@ -244,6 +244,9 @@ header div a{
  box-sizing:border-box;
  height:auto;
 }
+.footer2 img[alt="logo"]{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
 .footer2 p{
     color:white;
     padding-top:30px;
@@ -393,6 +396,9 @@ header div a{
     font-size:19px;
     margin-left:100px;
     box-sizing:border-box;
+}
+.footer2 img[alt="logo"]{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
 }
 .footer1 input{
     width:62%;
