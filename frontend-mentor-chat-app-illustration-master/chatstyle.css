@@ -42,7 +42,7 @@ body{
 }
 .phone{
     width:80%;
-    height:650px;
+    height:minmax(500px,auto);
     background-color:white;
     margin:auto;
     border-radius:35px;
