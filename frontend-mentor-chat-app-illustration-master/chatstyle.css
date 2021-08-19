@@ -2,9 +2,12 @@ body{
     margin:0;
     padding:0;
     font-size:16px;
+    background: url(images/Vector\ 1.png);
+    background-size:300px;
+    background-repeat:no-repeat;
 }
 :root{
-    /*primary color */
+    /*primary 264color */
    /* Pale Violet (sub-heading at the top of the app UI): hsl(276, 100%, 81%)*/
     --colorleftchat:hsl(276, 55%, 52%);
     --colorrightchat: hsl(271, 15%, 43%);
@@ -32,13 +35,12 @@ body{
 .container{
     width:90%;
     height:auto;
-    background-color:var(--colorWhite);
     margin:auto;
     display:flex;
     flex-direction:column;
 }
 .phone{
-    width:90%;
+    width:80%;
     height:auto;
     background-color:white;
     margin:auto;
@@ -54,6 +56,7 @@ body{
     height:auto;
     background-color:var(--colorappbackground);
     border-radius:35px;
+    font-family: 'Rubik', sans-serif;
     
 }
  .users .profile{
@@ -190,19 +193,56 @@ body{
     text-align:center;
 }
 .headertext h1{
-    font-size:4em;
+    font-size:2.8em;
     padding-top:3rem;
     padding-bottom:3rem;
     color:var(--colormainheading);
+    font-family: 'Rubik', sans-serif;
 }
 .headertext p{
-    font-size:1.6rem;
+    font-size:1em;
     max-width:75%;
     margin:auto;
+    margin-bottom:3em;
+    line-height:1.7em;
+    font-family: 'Rubik', sans-serif;
 }
 @media screen and (min-width:700px){
+    body{
+        background:url(images/Vector\ 1.png);
+        background-position:left top;
+        background-size:20em;
+        background-repeat:no-repeat;
+    }
     .container{
         display:flex;
         flex-direction:row;
+        background-color:green;
+        width:80%;
+        box-sizing:border-box;
+        padding:40px;
+        height:100vh;
+        background:none;
     }
+    .phone{
+        margin-top:0px;
+        height:auto;
+    }
+    .headertext{
+        text-align:left;
+        box-sizing:border-box;
+        padding-left:100px;
+        padding-top:200px;
+    }
+    .headertext h1{
+        font-size:35px;
+        padding-bottom:10px;
+    }
+    .headertext p{
+        margin:0px;
+        font-size:16px;
+        margin-top:10px;
+        line-height:23px;
+    }
+    
 }
