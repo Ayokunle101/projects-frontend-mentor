@@ -38,7 +38,7 @@ body{
     flex-direction:column;
 }
 .phone{
-    width:80%;
+    width:90%;
     height:auto;
     background-color:white;
     margin:auto;
@@ -58,7 +58,7 @@ body{
 }
  .users .profile{
     width:100%;
-    height:auto;
+    height:minmax(110px,auto);
     background-image: linear-gradient(to left,var(--colorgrad1),var(--colorgrad2));
     border-top-left-radius:25px;
     border-top-right-radius:25px;
@@ -142,12 +142,17 @@ body{
     color:var(--colorleftchat);
     padding:8px;
     height:30px;
-    background-color:red;
+    background-image:linear-gradient(to left,var(--colorgrad1),var(--colorgrad2));
     margin-left:15px;
     margin-top:8px;
     border-bottom-right-radius:20px;
     border-top-left-radius:20px;
     border-top-right-radius:20px;
+}
+.sixtext span,.seventhtext span{
+    color:white;
+    padding-left:65%;
+    padding-top:30px;
 }
 
 .users .images{
@@ -167,7 +172,9 @@ body{
     border:none;
     margin-bottom:10px;
     margin-top:10px;
-    background-image:url()
+    background-image:url(images/chevron-circle-right-solid.svg);
+    background-repeat:no-repeat;
+    background-position:right;
 }
  
 .images img{
