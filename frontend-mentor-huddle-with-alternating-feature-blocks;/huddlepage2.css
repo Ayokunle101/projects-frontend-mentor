@@ -265,6 +265,7 @@ footer .social p{
     .headpage div div{
         display:block;
         text-align:left;
+        box-sizing:border-box;
     }
     .headpage div div h1{
       font-weight:700;
