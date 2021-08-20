@@ -250,6 +250,8 @@ footer .social p{
     color:white;
     font-size:16px;
 }
+.attribution { font-size: 16px; text-align: center; }
+.attribution a { color: hsl(228, 74%, 47%); }
 @media screen and (min-width:700px){
     .headpage{
         height:100vh;
