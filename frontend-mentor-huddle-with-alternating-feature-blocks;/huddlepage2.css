@@ -242,6 +242,9 @@ footer .social a{
     border:2px solid black;
     padding:5px 7px;
 }
+footer .social a:nth-child(1){
+    margin-left:0px;
+}
 footer .social p{
     text-align:center;
     color:white;
