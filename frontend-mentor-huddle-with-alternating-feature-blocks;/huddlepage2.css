@@ -52,7 +52,7 @@ nav button{
    text-align:center;
 }
 .headpage div h1{
-    font-size:25px;
+    font-size:30px;
     padding-top:50px;
     font-weight:600;
 }
@@ -71,6 +71,7 @@ nav button{
     color:white;
     border:none;
     box-shadow:1px 1px 5px hsl(321, 100%, 78%);
+    box-sizing:border-box;
 }
 .headpage img{
     width:100%;
