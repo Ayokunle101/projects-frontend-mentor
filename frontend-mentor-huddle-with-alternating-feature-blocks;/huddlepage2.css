@@ -251,5 +251,71 @@ footer .social p{
     font-size:16px;
 }
 @media screen and (min-width:700px){
-    
+    .headpage{
+        height:100vh;
+    }
+    .headpage div{
+        display:flex;
+        width:90%;
+        height:80vh;
+    }
+    .headpage div div{
+        display:block;
+        text-align:left;
+    }
+    .headpage div div h1{
+      font-weight:700;
+      padding-top:150px;
+      max-width:75%;
+    }
+    .headpage div div p{
+        font-size:18px;
+        max-width:70%;
+    }
+    .headpage div div button{
+        padding:20px 60px;
+    }
+    .headpage div img{
+        width:55%;
+    }
+    .firstblock{
+        grid-template-columns:50% 50%;
+        grid-template-areas:'textarea1 image'
+    }
+    .firstblock div:nth-child(1),.thirdblock div:nth-child(1){
+        grid-area:image;
+    }
+    .firstblock div:nth-child(2),.thirdblock div:nth-child(2){
+        grid-area:textarea1;
+    }
+    .secondblock{
+        grid-template-columns:50% 50%;
+    }
+    .thirdblock{
+        grid-template-columns:50% 50%;
+        grid-template-areas:'textarea1 image';
+    }
+    .buildcommunity{
+        width:50%;
+        margin:-7.4% auto;
+    }
+    footer{
+        display:flex;
+        flex-direction:row;
+        width:100%;
+        justify-content:space-between;
+    }
+    footer div{
+    }
+    footer ol,footer ul{
+        box-sizing:border-box;
+        padding-top:70px;
+    }
+    footer div:nth-child(1){
+        width:40%;
+    }
+    footer div:nth-child(4){
+        padding-top:70px;
+        margin-right:20px;
+    }
 }
