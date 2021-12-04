@@ -26,12 +26,29 @@ nav img{
     height:30px;
     margin:10px 0px 10px 5%;
 }
+nav div{
+    border:1px solid white;
+    width:40px;
+    height:40px;
+    margin:10px;
+    box-sizing:border-box;
+    padding:2px;
+    
+}
+nav div span{
+    background-color: white;
+    height:1px;
+}
 nav ol {
     list-style-type:none;
-    display:flex;
+    display:none;
     align-items:center;
     color:white;
     margin-right:5%;
+
+}
+nav ol.active{
+    display:block;
 }
 nav ol li{
     padding-left:20px;
@@ -332,6 +349,17 @@ nav ol li{
     .productive-illustration{
     
         height:70vh;
+    }
+    nav ol {
+        list-style-type:none;
+        display:flex;
+        align-items:center;
+        color:white;
+        margin-right:5%;
+    
+    }
+    nav div{
+        display:none;
     }
     .productive-illustration .illustrative-div{
         flex-direction:row;
